@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying manuscript."
+title: "Do In-Match Hydration Breaks Alter Match Momentum? A Within-Match Case-Crossover Analysis of the 2026 FIFA World Cup"
+authors:
+  - family-names: Dey
+    given-names: Debangan
+    affiliation: "Department of Statistics, Texas A&M University"
+    email: debangan@tamu.edu
+year: 2026
+version: "1.0.0"
+license: MIT
+abstract: >-
+  Reproducible code and derived data for a within-match case-crossover analysis
+  of whether the 2026 FIFA World Cup mandatory hydration breaks affected match
+  momentum, with an external-control robustness design and an event-based (xG)
+  outcome check.
+keywords:
+  - hydration break
+  - case-crossover design
+  - match momentum
+  - causal inference
+  - association football

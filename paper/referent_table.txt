@@ -1,0 +1,8 @@
+A linear                     beta +0.26[-2.69,+3.21]  gamma -0.17[-2.77,+2.43]  nctrl=3139
+A quadratic                  beta +0.50[-2.42,+3.42]  gamma -0.15[-2.76,+2.46]  nctrl=3139
+A cubic                      beta +0.92[-2.37,+4.21]  gamma -0.18[-2.79,+2.44]  nctrl=3139
+A per-minute dummies         beta -1.70[-9.01,+5.61]  gamma -0.12[-2.65,+2.41]  nctrl=3139
+B adjacent 15-32 | 60-77     beta -0.31[-4.52,+3.90]  gamma +0.55[-1.98,+3.08]  nctrl=1342
+B mid 11-40 | 56-85          beta +1.07[-2.68,+4.82]  gamma +0.48[-2.35,+3.30]  nctrl=2134
+B far 6-15 | 73-78           beta -5.14[-13.46,+3.19]  gamma -2.34[-8.78,+4.10]  nctrl=990
+B all eligible               beta +0.50[-2.42,+3.42]  gamma -0.15[-2.76,+2.46]  nctrl=3139

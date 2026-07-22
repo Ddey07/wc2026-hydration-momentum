@@ -1,0 +1,14 @@
+gap-corrected outcome = oriented mean momentum over post-resumption window [c+3, c+12]
+break events n=198; control anchors n=3139; matches=99; uniform 3-min break exclusion
+
+FIXED EFFECTS (within-match, cluster-robust):
+  M0 base    break +0.26 [-2.50,+3.02] (p=0.85)
+  M1 +heat   break +0.25 [-2.50,+3.00] (p=0.86) ; xWBGT/C -0.23 [-0.83,+0.36] (p=0.44)
+  M2 +lead   break +0.38 [-2.54,+3.31] (p=0.80) ; xlead -0.90 [-3.63,+1.83] (p=0.52)
+  M3 +elo    break +0.12 [-2.70,+2.93] (p=0.94) ; xElo/100 +1.09 [-0.45,+2.63] (p=0.17)
+  M4 full    break +0.35 [-2.57,+3.26] (p=0.81) ; xlead -2.19 [-4.88,+0.50] (p=0.11) ; xElo/100 +1.58 [+0.01,+3.16] (p=0.05) ; xWBGT/C -0.21 [-0.81,+0.39] (p=0.49)
+
+MIXED EFFECTS (random match intercept):
+  X1 main      break +0.26 [-2.45,+2.97] (p=0.85)
+  X2 +lead     break +0.38 [-2.35,+3.11] (p=0.78) ; xlead -0.90 [-2.99,+1.20] (p=0.40)
+  X3 +lead+elo break +0.36 [-2.37,+3.09] (p=0.80) ; xlead -2.23 [-4.55,+0.09] (p=0.06) ; xElo/100 +1.59 [+0.39,+2.79] (p=0.01)
