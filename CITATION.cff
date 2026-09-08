@@ -7,7 +7,13 @@ authors:
     affiliation: "Department of Statistics, Texas A&M University"
     email: debangan@tamu.edu
 year: 2026
-version: "1.0.0"
+version: "1.1.0"
+identifiers:
+  - type: other
+    value: "arXiv:2607.19783"
+    description: "arXiv preprint"
+url: "https://arxiv.org/abs/2607.19783"
+repository-code: "https://github.com/Ddey07/wc2026-hydration-momentum"
 license: MIT
 abstract: >-
   Reproducible code and derived data for a within-match case-crossover analysis

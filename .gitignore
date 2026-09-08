@@ -15,3 +15,13 @@ paper/*.synctex.gz
 
 # OS
 .DS_Store
+
+# SofaScore-sourced series: proprietary model outputs, regenerated locally by
+# fetch_sofascore.py. NEVER commit these (see README "Data & regeneration").
+data/wc2026_group_momentum.json
+data/wc2026_knockout_raw.json
+data/xg_2026.json
+data/wc_control_intl.json
+data/wc_control_pastwc.json
+data/wc_control_group_momentum.json
+data/wc_control_momentum.json
